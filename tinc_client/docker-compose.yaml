@@ -15,5 +15,4 @@ services:
       options:
         max-size: 1g
     image: tinc
-    command:  -D -n retrocube
 

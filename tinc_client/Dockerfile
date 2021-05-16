@@ -7,6 +7,8 @@ RUN \
     apk add --no-cache \
         tinc
 
+COPY ./run.sh /run.sh
+RUN chmod 755 /run.sh
 # Build arguments
 ARG BUILD_ARCH
 ARG BUILD_DATE
@@ -20,6 +22,5 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="Matteo Matteob99 Bocci <https://github.com/matteob99>" \
-ENTRYPOINT [ "/usr/sbin/tincd" ]
-CMD [  "-D", "-U", "nobody" ]
+    maintainer="Matteo Matteob99 Bocci <https://github.com/matteob99>"
+ENTRYPOINT [ "/run.sh" ]

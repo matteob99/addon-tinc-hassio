@@ -23,9 +23,11 @@
    "devices": ["/dev/net/tun"],
   "map": ["config"],
   "options": {
-    "tinc_conf": "tinc"
+    "tinc_conf": "tinc",
+    "tinc_name": ""
   },
   "schema": {
-    "tinc_conf": "str"
+    "tinc_conf": "str",
+    "tinc_name": "str",
   }
 }
