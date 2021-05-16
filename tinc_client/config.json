@@ -1,11 +1,11 @@
 {
   "name": "tinc_client",
-  "version": "0.1.0.0.2",
+  "version": "0.1.0.0.3",
   "slug": "tincclient",
   "description": "Vpn tunnel with tinc",
   "url": "https://github.com/matteob99/addon-tinc-hassio/tree/main/tinc_client",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "apparmor": true,
+  "apparmor": false,
   "host_network": true,
   "init":false,
   "full_access": false,
