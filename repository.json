@@ -1,5 +1,5 @@
 {
   "name": "Tinc Home Assistant add-ons",
-  "url": "https://github.com/matteob99/addon-tinc-hassio",
+  "url": "https://github.com/matteob99/addon-tinc-hassio.git#add-Dockerfile",
   "maintainer": "Matteo Matteob99 Bocci"
 }
