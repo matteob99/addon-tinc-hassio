@@ -10,8 +10,8 @@
   "init":false,
   "full_access": false,
   "ports":{
-      "655/udp": '',
-      "655/tcp": ''
+      "655/udp": 655,
+      "655/tcp": 655
    },
    "ports_description":{
       "51820/udp":"Tinc: Open this port if it is the server"
