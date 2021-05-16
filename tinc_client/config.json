@@ -28,6 +28,6 @@
   },
   "schema": {
     "config_folder": "str",
-    "tinc_name": "str",
+    "tinc_name": "str"
   }
 }
