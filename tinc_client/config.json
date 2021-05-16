@@ -1,6 +1,6 @@
 {
   "name": "tinc_client",
-  "version": "0.1",
+  "version": "0.1.0.0.1",
   "slug": "tincclient",
   "description": "Vpn tunnel with tinc",
   "url": "https://github.com/matteob99/addon-tinc-hassio/tree/main/tinc_client",
