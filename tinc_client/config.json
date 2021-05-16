@@ -6,10 +6,10 @@
   "url": "https://github.com/matteob99/addon-tinc-hassio/tree/main/tinc_client",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "apparmor": true,
-   "host_network": true,
-   "init":false,
-   "full_access": false,
-   "ports":{
+  "host_network": true,
+  "init":false,
+  "full_access": false,
+  "ports":{
       "655/udp": 655,
       "655/tcp": 655
    },
@@ -23,11 +23,11 @@
    "devices": ["/dev/net/tun"],
   "map": ["config"],
   "options": {
-    "tinc_conf": "tinc",
+    "config_folder": "tinc",
     "tinc_name": "name"
   },
   "schema": {
-    "tinc_conf": "str",
+    "config_folder": "str",
     "tinc_name": "str",
   }
 }
