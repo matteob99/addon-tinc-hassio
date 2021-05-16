@@ -24,7 +24,7 @@
   "map": ["config"],
   "options": {
     "tinc_conf": "tinc",
-    "tinc_name": ""
+    "tinc_name": "name"
   },
   "schema": {
     "tinc_conf": "str",
