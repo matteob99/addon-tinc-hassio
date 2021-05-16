@@ -1,0 +1,19 @@
+version: "3"
+services:
+  tinc:
+    build: ./
+    container_name: tinc
+    restart: always
+    network_mode: host
+    privileged: true
+    devices:
+      - /dev/net/tun
+    volumes:
+       - '/home/matteob99/addon-tinc-hassio/tinc_client/tinc:/etc/tinc'
+       - '/dev/net/:/dev/net'
+    logging:
+      options:
+        max-size: 1g
+    image: tinc
+    command:  -D -n retrocube
+
